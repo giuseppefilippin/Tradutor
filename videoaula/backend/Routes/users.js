@@ -3,8 +3,8 @@ import { getUsers, deleteUser, updateUser } from "../Controllers/users.js";
 
 const router = express.Router();
 
-router.get("/users", getUsers);      // Rota para listar usuários
-router.delete("/users/:id", deleteUser);  // Rota para deletar usuário
-router.put("/users/:id", updateUser);     // Rota para editar usuário
+router.get("/users", getUsers);
+router.delete("/users/:id", deleteUser);
+router.put("/users/:id", updateUser);
 
 export default router;
